@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Secheur solaire.X
+PROJECTNAME=SecheurSolaire.X
 
 # Active Configuration
 DEFAULTCONF=Main
