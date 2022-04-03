@@ -8,12 +8,12 @@
     clc2.c
 
   @Summary
-    This is the generated driver implementation file for the CLC2 driver using MPLAB(c) Code Configurator
+    This is the generated driver implementation file for the CLC2 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs 
 
   @Description
     This source file provides implementations for driver APIs for CLC2.
     Generation Information :
-        Product Revision  :  MPLAB(c) Code Configurator - 4.15
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs  - 1.26.1
         Device            :  PIC16F18856
         Driver Version    :  2.00
     The generated drivers are tested against the following:
@@ -101,7 +101,7 @@ void CLC2_ISR(void)
     // Clear the CLC interrupt flag
     PIR5bits.CLC2IF = 0;
     
-    #include "..\input.h"
+    #include "../input.h"
     #include "clc1.h"
     if (CLC1_OutputStatusGet())
         ADJ_VALUE ++;

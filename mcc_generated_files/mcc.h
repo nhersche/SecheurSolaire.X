@@ -1,5 +1,5 @@
 /**
-  @Generated MPLAB(c) Code Configurator Header File
+  @Generated PIC10 / PIC12 / PIC16 / PIC18 MCUs  Header File
 
   @Company:
     Microchip Technology Inc.
@@ -8,12 +8,12 @@
     mcc.h
 
   @Summary:
-    This is the mcc.h file generated using MPLAB(c) Code Configurator
+    This is the mcc.h file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs 
 
   @Description:
     This header file provides implementations for driver APIs for all modules selected in the GUI.
     Generation Information :
-        Product Revision  :  MPLAB(c) Code Configurator - 4.15
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs  - 1.26.1
         Device            :  PIC16F18856
         Version           :  1.02
     The generated drivers are tested against the following:
@@ -50,18 +50,18 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include "interrupt_manager.h"
-#include "pwm7.h"
+#include "clc1.h"
+#include "clc2.h"
+#include "fvr.h"
 #include "pwm6.h"
+#include "pwm7.h"
+#include "adcc.h"
 #include "tmr2.h"
 #include "tmr4.h"
-#include "tmr6.h"
-#include "fvr.h"
-#include "clc2.h"
-#include "clc1.h"
-#include "smt2.h"
-#include "smt1.h"
-#include "adcc.h"
 #include "memory.h"
+#include "tmr6.h"
+#include "smt1.h"
+#include "smt2.h"
 
 #define _XTAL_FREQ  32000000
 

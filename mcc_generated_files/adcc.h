@@ -8,12 +8,12 @@
     adcc.h
 
   @Summary
-    This is the generated header file for the ADCC driver using MPLAB(c) Code Configurator
+    This is the generated header file for the ADCC driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs 
 
   @Description
     This header file provides APIs for driver for ADCC.
     Generation Information :
-        Product Revision  :  MPLAB(c) Code Configurator - 4.15
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs  - 1.26.1
         Device            :  PIC16F18856
         Driver Version    :  2.00
     The generated drivers are tested against the following:

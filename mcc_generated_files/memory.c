@@ -8,12 +8,12 @@
     memory.c
 
   @Summary
-    This is the generated driver implementation file for the MEMORY driver using MPLAB(c) Code Configurator
+    This is the generated driver implementation file for the MEMORY driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs 
 
   @Description
     This file provides implementations of driver APIs for MEMORY.
     Generation Information :
-        Product Revision  :  MPLAB(c) Code Configurator - 4.15
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs  - 1.26.1
         Device            :  PIC16F18856
         Driver Version    :  2.00
     The generated drivers are tested against the following:

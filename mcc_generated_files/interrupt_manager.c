@@ -8,14 +8,14 @@
     interrupt_manager.c
 
   @Summary:
-    This is the Interrupt Manager file generated using MPLAB(c) Code Configurator
+    This is the Interrupt Manager file generated using PIC10 / PIC12 / PIC16 / PIC18 MCUs 
 
   @Description:
     This header file provides implementations for global interrupt handling.
     For individual peripheral handlers please see the peripheral driver for
     all modules selected in the GUI.
     Generation Information :
-        Product Revision  :  MPLAB(c) Code Configurator - 4.15
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs  - 1.26.1
         Device            :  PIC16F18856
         Driver Version    :  1.02
     The generated drivers are tested against the following:
@@ -48,7 +48,7 @@
 #include "interrupt_manager.h"
 #include "mcc.h"
 
-void interrupt INTERRUPT_InterruptManager (void)
+void __interrupt() INTERRUPT_InterruptManager (void)
 {
     // interrupt handler
     if(INTCONbits.PEIE == 1 && PIE5bits.CLC2IE == 1 && PIR5bits.CLC2IF == 1)

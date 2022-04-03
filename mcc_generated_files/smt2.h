@@ -8,12 +8,12 @@
     smt2.h
 
   @Summary
-    This is the generated header file for the SMT2 driver using MPLAB(c) Code Configurator
+    This is the generated header file for the SMT2 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs 
 
   @Description
     This header file provides APIs for driver for SMT2.
     Generation Information :
-        Product Revision  :  MPLAB(c) Code Configurator - 4.15
+        Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs  - 1.26.1
         Device            :  PIC16F18856
         Driver Version    :  1.0
     The generated drivers are tested against the following:

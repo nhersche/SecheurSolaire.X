@@ -8,12 +8,12 @@
      pwm7.c
  
    @Summary
-     This is the generated driver implementation file for the PWM7 driver using MPLAB(c) Code Configurator
+     This is the generated driver implementation file for the PWM7 driver using PIC10 / PIC12 / PIC16 / PIC18 MCUs 
  
    @Description
      This source file provides implementations for driver APIs for PWM7.
      Generation Information :
-         Product Revision  :  MPLAB(c) Code Configurator - 4.15
+         Product Revision  :  PIC10 / PIC12 / PIC16 / PIC18 MCUs  - 1.26.1
          Device            :  PIC16F18856
          Driver Version    :  2.00
      The generated drivers are tested against the following:
@@ -56,7 +56,7 @@
 
  void PWM7_Initialize(void)
  {
-     // Set the PWM to the options selected in the MPLAB(c) Code Configurator.
+     // Set the PWM to the options selected in the PIC10 / PIC12 / PIC16 / PIC18 MCUs .
      // PWM7POL active_hi; PWM7EN enabled; 
      PWM7CON = 0x80;
      
